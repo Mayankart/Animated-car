@@ -17,12 +17,14 @@
 }
 .track{
     position: absolute;
-    height: 39vh;
-    width: 100%;
-    background-size: cover;
+    height: 60vh;
+    width: 800vh;
+    /* background-size: cover; */
     background-image: url(img/track.png);
     top: 62vh;
     background-repeat: repeat-x;
+    animation: carMove linear 20s infinite;
+
 }
 .cars{
     height: 100px;
@@ -42,6 +44,7 @@
     width: 77px;
     top: 36px;
     left: 42px;
+    animation: wheelRotation linear .6s infinite;
 
 }
 
@@ -50,5 +53,23 @@
     width: 77px;
     top: -38px;
     left: 234px;
+    animation: wheelRotation linear .6s infinite;
 
+
+}
+@keyframes wheelRotation{
+    100%{
+        transform:rotate(360deg);
+    }
+}
+@keyframes carMove{
+    100%{
+        transform:translateX(-500vw);
+    }
+
+}
+@keyframes shake{
+    100%{
+        
+    }
 }
