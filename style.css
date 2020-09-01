@@ -13,11 +13,42 @@
     width: 100%;
     background-size: cover;
     background-image: url(img/trees.png);
+    position: absolute;
 }
 .track{
     position: absolute;
-    height: 100vh;
+    height: 39vh;
     width: 100%;
     background-size: cover;
     background-image: url(img/track.png);
+    top: 62vh;
+    background-repeat: repeat-x;
+}
+.cars{
+    height: 100px;
+    width: 380px;
+    position: absolute;
+    background-size: cover;
+    background-image: url(img/car_body.png);
+    background-repeat: no-repeat;
+    left: 444px;
+    bottom: 0px;
+}
+.wheel{
+
+}
+.wheel1 img{
+    position: relative; 
+    width:77px;
+    top: 44px;
+    left: 33px;
+
+}
+
+.wheel2 img {
+    position: relative; 
+    width:77px;
+    top: 44px;
+    left: 33px;
+
 }
