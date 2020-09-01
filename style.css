@@ -9,7 +9,7 @@
     background-image: url(img/background.jpg);
 }
 .trees{
-    height: 100vh;
+    height: 62vh;
     width: 100%;
     background-size: cover;
     background-image: url(img/trees.png);
@@ -32,23 +32,23 @@
     background-image: url(img/car_body.png);
     background-repeat: no-repeat;
     left: 444px;
-    bottom: 0px;
+    bottom: 191px;
 }
 .wheel{
 
 }
 .wheel1 img{
-    position: relative; 
-    width:77px;
-    top: 44px;
-    left: 33px;
+    position: relative;
+    width: 77px;
+    top: 36px;
+    left: 42px;
 
 }
 
-.wheel2 img {
-    position: relative; 
-    width:77px;
-    top: 44px;
-    left: 33px;
+.wheel2 img{
+    position: relative;
+    width: 77px;
+    top: -38px;
+    left: 234px;
 
 }
