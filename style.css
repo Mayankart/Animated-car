@@ -2,6 +2,10 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    overflow: hidden;
+    animation: shakebody linear .6s infinite;
+}
 .sky{
     height: 100vh;
     position: absolute;
@@ -18,7 +22,7 @@
 .track{
     position: absolute;
     height: 60vh;
-    width: 800vh;
+    width: 10000vh;
     /* background-size: cover; */
     background-image: url(img/track.png);
     top: 62vh;
@@ -35,6 +39,7 @@
     background-repeat: no-repeat;
     left: 444px;
     bottom: 191px;
+    animation: shake linear .6s infinite;
 }
 .wheel{
 
@@ -69,7 +74,31 @@
 
 }
 @keyframes shake{
-    100%{
+    0%{
+        transform:translateY(-5px);
         
     }
+    50%{
+        transform:translateY(5px);
+        
+    }
+    100%{
+        transform:translateY(-5px);
+        
+    }
+}
+@keyframes shakebody{
+    0%{
+        transform:translateY(-5px);
+        
+    }
+    50%{
+        transform:translateY(5px);
+        
+    }
+    100%{
+        transform:translateY(-5px);
+        
+    }
+
 }
